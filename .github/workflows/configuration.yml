@@ -22,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+
       - name: Build and push Docker Image
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
